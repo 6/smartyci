@@ -13,7 +13,6 @@ gem 'jbuilder', '~> 2.5'
 gem 'redis', '~> 3.0'
 gem 'rollbar'
 gem 'rubocop'
-gem 'git'
 
 group :development, :test do
   gem 'byebug'
