@@ -1,6 +1,6 @@
 FactoryGirl.define do
   factory :build do
-    project { build(:github_project) }
+    project
 
     sequence(:branch) { |n| "branch-#{n}" }
     sequence(:commit) { |n| "commit-hash-#{n}" }

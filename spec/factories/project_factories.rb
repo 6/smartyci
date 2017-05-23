@@ -1,8 +1,8 @@
 FactoryGirl.define do
-  factory :github_project do
-    github_project_owner
+  factory :project do
+    project_owner
 
-    sequence(:remote_id) { |n| "github-project-#{n}" }
+    sequence(:remote_id) { |n| "project-#{n}" }
     sequence(:name) { |n| "Project#{n}" }
   end
 end
